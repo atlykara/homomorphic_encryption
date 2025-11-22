@@ -11,27 +11,27 @@ I run the project on **WSL2 (Ubuntu)** using a **Python virtual environment (ven
 
 # 1. TenSEAL requires CMake and build tools, which are available natively on Ubuntu:
 
-    ```bash
+```bash
     sudo apt update
     sudo apt install -y build-essential cmake python3-dev python3-pip git
-    ```
+```
 # 2. Create and activate a virtual environment for clean setup
 
-    ```bash
+```bash
     python3 -m venv venv
     source venv/bin/activate
-    ```
+```
 # 3. Install Python requirements (Numpy & TenSEAL)
 
-    ```bash
+```bash
     pip install -r requirements.txt
-    ```
+```
 
 ## How to Run ##
 
-    ```bash
+```bash
     python3 main.py
-    ```
+```
 
 The program will:
     -Ask for two input numbers
